@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Vocab Patterns</title>
+    <link href="{{ site.baseurl }}/style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body style="display:grid; grid-template-columns: 300px auto; grid-template-rows: 100px auto 300px;">
+    <div class="header left" style="grid-column: 1; grid-row: 1;">
+        
+    </div>
+    <div class="header right header-title" style="grid-column: 2; grid-row: 1;">
+        Vocabulary Patterns
+    </div>        
+    <div id="sidebar" style="grid-column: 1; grid-row: 2;">
+        {% include menu.html %}
+    </div>
+    <div id="content" style="grid-column: 2; grid-row: 2;">
+        {{ content }}
+    </div>
+    <div class="footer left" style="grid-column: 1; grid-row: 3;">
+        
+    </div>
+    <div class="footer right header-title" style="grid-column: 2; grid-row: 3;">
+        &copy Nicholas J. Car, 2021
+    </div>
+</body>
+</html>

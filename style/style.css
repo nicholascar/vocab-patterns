@@ -1,0 +1,89 @@
+---
+---
+
+h1 {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 120px;
+    color: rgb(34, 34, 34);
+}
+
+h2 {    
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    color: rgb(195, 49, 49);   
+    line-height: 50px; 
+}
+
+h3 {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+}
+
+.header-title {
+    font-variant: small-caps;
+}
+
+body {
+    background-color: white;
+    color: #222;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    line-height: 145%;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #095197;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    line-height: 2em;
+}
+
+li > ul > li {
+    font-size: smaller;
+}
+
+footer {
+    font-size: small;
+    background: #333333;
+    color:white;
+    text-align: center;
+    padding: 25px;
+}
+
+.caption {
+    font-size: small;
+}
+
+#content {
+    text-align: left;
+}
+
+.header {
+    border-bottom: solid 1px darkgrey;
+    padding-top: 20px;
+}
+
+.footer {
+    border-top: solid 1px darkgrey;
+    padding-top: 20px;
+}    
+
+pre {
+    background-color: #eee;
+    padding:20px;
+    width: 30%;
+}
